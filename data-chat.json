@@ -1,0 +1,206 @@
+{
+    "personal_info": {
+        "name": "Oliver Blasco Carpi",
+        "title": "Senior Full Stack Developer | WordPress & WooCommerce | N8N & AI Automation Engineer",
+        "location": "Birmingham B73 5HL, UK",
+        "email": "oliverbenzetta@gmail.com",
+        "phone": "+44 7709 542235",
+        "languages": [
+            "Spanish (Native)",
+            "Catalan (Native)",
+            "English (Professional working proficiency)"
+        ],
+        "total_years_of_experience": 15,
+        "eligible_to_work_in_uk": true,
+        "willing_to_relocate": "Anywhere"
+    },
+    "about_me": "Soy Oliver Blasco, desarrollador Full-Stack y Consultor de IA con más de 10 años de experiencia, especializado en construir sistemas tecnológicos inteligentes, rápidos y escalables. Combino la robustez del ecosistema WordPress y el código a medida con el poder de la Inteligencia Artificial. Desde bases de conocimiento RAG y agentes autónomos hasta automatizaciones avanzadas, transformo la forma en que los negocios operan digitalmente. Consultoría e implantación de Inteligencia Artificial para empresas. Experto en automatización avanzada, prompting de alto nivel, integración de APIs y sistemas RAG. Especializado tanto en IA generativa Cloud como en despliegues de IA Local, garantizando la privacidad y seguridad de los datos corporativos. Te acompaño en todo el proceso de modernización tecnológica de forma cercana y humana, convirtiéndome en tu partner de confianza.",
+    "career_highlights": [
+        "Delivered advanced WordPress and WooCommerce solutions for clients in Spain and the UK, including multinational projects (Rehau, Dynabook)",
+        "Built complex automation pipelines with n8n + AI models, improving efficiency in publishing, SEO, and data enrichment",
+        "Implemented AI-powered chatbots and RAG pipelines for smarter search and Q&A over structured company data",
+        "Engineered the Jask n8n Workflows: master-slave PDF summarisation pipelines, multipurpose AnythingLLM ingestion, and Single-Agent autopopulators",
+        "Designed and deployed local AI workflows for privacy-sensitive projects using LM Studio and various LLM models (e.g. Qwen, Phi-3, GPT-OSS)"
+    ],
+    "ai_expertise": [
+        {
+            "category": "Orchestration & Automation",
+            "details": "Native integration of workflows with web ecosystems via n8n using custom webhooks and async callbacks."
+        },
+        {
+            "category": "RAG & Knowledge Bases",
+            "details": "Automated ingestion of data and local documents into structured vector databases using AnythingLLM with 'FLUX CAPACITOR' chunking patterns."
+        },
+        {
+            "category": "Bulk Processing & Chunking",
+            "details": "Batch processing models to extract, summarize, and classify large volumes of data using LLMs."
+        },
+        {
+            "category": "Autonomous Agents & Local LLMs",
+            "details": "Deployment of local models (via LM Studio) interacting with NocoDB databases to auto-generate content securely."
+        }
+    ],
+    "skills": [
+        "Mysql",
+        "Build automation",
+        "Graphic Design",
+        "N8N",
+        "ShellScript",
+        "Wordpress",
+        "Php",
+        "AI",
+        "Shopify - Liquid",
+        "Front-End Development",
+        "Javascript",
+        "jQuery",
+        "HTML5",
+        "Sketchup",
+        "Prestashop",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "AI Automation",
+        "ActionScript"
+    ],
+    "work_experience": [
+        {
+            "role": "Senior Web Developer",
+            "company": "Jask Creative - Solihull, West Midlands",
+            "dates": "January 2025 to Present"
+        },
+        {
+            "role": "Web Developer",
+            "company": "Eby Design ltd - Tamworth",
+            "dates": "March 2021 to December 2024",
+            "description": "Advanced web design for medium and big companies in the UK... Specialized in PHP and Wordpress."
+        },
+        {
+            "role": "Web Developer",
+            "company": "Saint Loupe ltd - Birmingham",
+            "dates": "February 2020 to March 2021"
+        },
+        {
+            "role": "Web Developer / Graphic Designer",
+            "company": "STUDIO BENZETTA - Barcelona",
+            "dates": "August 2016 to October 2019"
+        },
+        {
+            "role": "Community Manager",
+            "company": "SANT JORDI BEACH CLUB - L'Ampolla",
+            "dates": "June 2015 to August 2018"
+        },
+        {
+            "role": "Web Developer / Graphic Designer",
+            "company": "Infinitum - (Lumine Mediterranea Beach and Golf Club) - Barcelona",
+            "dates": "January 2015 to August 2016"
+        },
+        {
+            "role": "Web Developer / Graphic Designer",
+            "company": "Pacha Group - Barcelona - Salou",
+            "dates": "June 2009 to January 2015"
+        },
+        {
+            "role": "Mac OS (Apple) IT Systems Technician",
+            "company": "K-Tuin Spain - Barcelona",
+            "dates": "June 2001 to June 2003"
+        }
+    ],
+    "education": [
+        {
+            "school": "IES Antoni Martí Franquès - Tarragona, ES",
+            "level": "High School",
+            "dates": "September 2002 to June 2004"
+        },
+        {
+            "school": "Escola Pax - Tarragona",
+            "level": "Primary and secondary education",
+            "dates": "September 1986 to June 1997"
+        }
+    ],
+    "projects": [
+        {
+            "name": "SEIB UK",
+            "url": "https://www.seib.co.uk/",
+            "date": "November 2025",
+            "role": "Senior WordPress Developer",
+            "technologies": [
+                "WordPress",
+                "PHP",
+                "ACF Pro",
+                "SCSS",
+                "JavaScript (ES6)",
+                "WooCommerce",
+                "Gravity Forms",
+                "Git"
+            ],
+            "description": "Led the backend and frontend development of a bespoke, performance-oriented WordPress theme for SEIB Insurance Brokers."
+        },
+        {
+            "name": "REHAU Answers Website Relaunch",
+            "url": "https://www.rehauanswers.co.uk/",
+            "date": "May 2024",
+            "description": "Migrated from ASP to a user-friendly WordPress platform, including custom PHP plugin development.",
+            "key_features": [
+                "Energy Performance Calculator",
+                "PDF Generation",
+                "Custom Gutenberg blocks"
+            ]
+        },
+        {
+            "name": "Adam Rouilly Website",
+            "url": "https://www.adam-rouilly.co.uk",
+            "date": "May 2024",
+            "description": "Development of a personal website with custom WordPress theme and Gutenberg blocks.",
+            "key_features": [
+                "PHP integrations",
+                "AI keyword generation",
+                "Relevanssi integration"
+            ]
+        },
+        {
+            "name": "EBY MARKETING 2023",
+            "url": "https://www.ebydesign.co.uk/",
+            "date": "February 2023",
+            "description": "Developed custom WordPress theme with GSAP animations."
+        },
+        {
+            "name": "JESIP - Working together, Saving Lives",
+            "url": "https://www.jesip.org.uk/",
+            "date": "May 2022",
+            "description": "Developed WordPress theme and PHP functionalities from scratch with focus on accessibility."
+        },
+        {
+            "name": "GENFAB",
+            "url": "https://genfab.co.uk",
+            "date": "2021",
+            "description": "Migrated eCommerce Store from Magento 1 to WordPress-WooCommerce."
+        },
+        {
+            "name": "ASKEWS LEGAL",
+            "url": "https://askewslegal.co",
+            "date": "2021",
+            "description": "Bespoke WordPress Solution with custom theme and PHP functionalities, and SharpSpring integration."
+        },
+        {
+            "name": "WEBSITE APA SPA",
+            "url": "https://www.apaspa.com/",
+            "date": "2020",
+            "description": "E-commerce platform integrating over 10,000 products with proprietary management system using Elementor/Divi."
+        },
+        {
+            "name": "PACHA LA PINEDA",
+            "url": "http://www.pachalapineda.com/2012 (Archived)",
+            "date": "July 2012",
+            "description": "Website system based in WordPress, with system ticketing and Club control access system (QR/Barcode)."
+        },
+        {
+            "name": "DCL PROJECTS BOOKING",
+            "url": "http://www.dclprojects.com/ (Archived)",
+            "date": "January 2009",
+            "description": "Web system CMS developed from scratch with PHP for booking and management agency of electronic music international artists."
+        }
+    ],
+    "links": {
+        "linkedin": "http://linkedin.com/in/oliverblasco"
+    }
+}
