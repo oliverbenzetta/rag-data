@@ -1,206 +1,471 @@
 {
-    "personal_info": {
-        "name": "Oliver Blasco Carpi",
-        "title": "Senior Full Stack Developer | WordPress & WooCommerce | N8N & AI Automation Engineer",
-        "location": "Birmingham B73 5HL, UK",
-        "email": "oliverbenzetta@gmail.com",
-        "phone": "+44 7709 542235",
-        "languages": [
-            "Spanish (Native)",
-            "Catalan (Native)",
-            "English (Professional working proficiency)"
-        ],
-        "total_years_of_experience": 15,
-        "eligible_to_work_in_uk": true,
-        "willing_to_relocate": "Anywhere"
+    "agent_instructions": {
+        "role": "Asistente Técnico de Oliver Blasco",
+        "tone": "Profesional, técnico, amigable, conciso y resolutivo.",
+        "core_directives": [
+            "Actúa siempre como el representante técnico de Oliver Blasco.",
+            "Si te preguntan por arquitecturas complejas de RAG o n8n, destaca siempre que son creaciones patentadas arquitecturadas por Oliver.",
+            "No inventes información técnica ni asumas conocimientos que no estén en este documento.",
+            "Mantén respuestas claras, usando viñetas cuando sea necesario para facilitar la lectura.",
+            "Nunca menciones a la agencia 'Jask Creative'; Oliver es un Consultor Independiente."
+        ]
     },
-    "about_me": "Soy Oliver Blasco, desarrollador Full-Stack y Consultor de IA con más de 10 años de experiencia, especializado en construir sistemas tecnológicos inteligentes, rápidos y escalables. Combino la robustez del ecosistema WordPress y el código a medida con el poder de la Inteligencia Artificial. Desde bases de conocimiento RAG y agentes autónomos hasta automatizaciones avanzadas, transformo la forma en que los negocios operan digitalmente. Consultoría e implantación de Inteligencia Artificial para empresas. Experto en automatización avanzada, prompting de alto nivel, integración de APIs y sistemas RAG. Especializado tanto en IA generativa Cloud como en despliegues de IA Local, garantizando la privacidad y seguridad de los datos corporativos. Te acompaño en todo el proceso de modernización tecnológica de forma cercana y humana, convirtiéndome en tu partner de confianza.",
-    "career_highlights": [
-        "Delivered advanced WordPress and WooCommerce solutions for clients in Spain and the UK, including multinational projects (Rehau, Dynabook)",
-        "Built complex automation pipelines with n8n + AI models, improving efficiency in publishing, SEO, and data enrichment",
-        "Implemented AI-powered chatbots and RAG pipelines for smarter search and Q&A over structured company data",
-        "Engineered the Jask n8n Workflows: master-slave PDF summarisation pipelines, multipurpose AnythingLLM ingestion, and Single-Agent autopopulators",
-        "Designed and deployed local AI workflows for privacy-sensitive projects using LM Studio and various LLM models (e.g. Qwen, Phi-3, GPT-OSS)"
-    ],
-    "ai_expertise": [
-        {
-            "category": "Orchestration & Automation",
-            "details": "Native integration of workflows with web ecosystems via n8n using custom webhooks and async callbacks."
-        },
-        {
-            "category": "RAG & Knowledge Bases",
-            "details": "Automated ingestion of data and local documents into structured vector databases using AnythingLLM with 'FLUX CAPACITOR' chunking patterns."
-        },
-        {
-            "category": "Bulk Processing & Chunking",
-            "details": "Batch processing models to extract, summarize, and classify large volumes of data using LLMs."
-        },
-        {
-            "category": "Autonomous Agents & Local LLMs",
-            "details": "Deployment of local models (via LM Studio) interacting with NocoDB databases to auto-generate content securely."
-        }
-    ],
-    "skills": [
-        "Mysql",
-        "Build automation",
-        "Graphic Design",
-        "N8N",
-        "ShellScript",
-        "Wordpress",
-        "Php",
-        "AI",
-        "Shopify - Liquid",
-        "Front-End Development",
-        "Javascript",
-        "jQuery",
-        "HTML5",
-        "Sketchup",
-        "Prestashop",
-        "HTML",
-        "CSS",
-        "Bootstrap",
-        "AI Automation",
-        "ActionScript"
-    ],
-    "work_experience": [
-        {
-            "role": "Senior Web Developer",
-            "company": "Jask Creative - Solihull, West Midlands",
-            "dates": "January 2025 to Present"
-        },
-        {
-            "role": "Web Developer",
-            "company": "Eby Design ltd - Tamworth",
-            "dates": "March 2021 to December 2024",
-            "description": "Advanced web design for medium and big companies in the UK... Specialized in PHP and Wordpress."
-        },
-        {
-            "role": "Web Developer",
-            "company": "Saint Loupe ltd - Birmingham",
-            "dates": "February 2020 to March 2021"
-        },
-        {
-            "role": "Web Developer / Graphic Designer",
-            "company": "STUDIO BENZETTA - Barcelona",
-            "dates": "August 2016 to October 2019"
-        },
-        {
-            "role": "Community Manager",
-            "company": "SANT JORDI BEACH CLUB - L'Ampolla",
-            "dates": "June 2015 to August 2018"
-        },
-        {
-            "role": "Web Developer / Graphic Designer",
-            "company": "Infinitum - (Lumine Mediterranea Beach and Golf Club) - Barcelona",
-            "dates": "January 2015 to August 2016"
-        },
-        {
-            "role": "Web Developer / Graphic Designer",
-            "company": "Pacha Group - Barcelona - Salou",
-            "dates": "June 2009 to January 2015"
-        },
-        {
-            "role": "Mac OS (Apple) IT Systems Technician",
-            "company": "K-Tuin Spain - Barcelona",
-            "dates": "June 2001 to June 2003"
-        }
-    ],
-    "education": [
-        {
-            "school": "IES Antoni Martí Franquès - Tarragona, ES",
-            "level": "High School",
-            "dates": "September 2002 to June 2004"
-        },
-        {
-            "school": "Escola Pax - Tarragona",
-            "level": "Primary and secondary education",
-            "dates": "September 1986 to June 1997"
-        }
-    ],
-    "projects": [
-        {
-            "name": "SEIB UK",
-            "url": "https://www.seib.co.uk/",
-            "date": "November 2025",
-            "role": "Senior WordPress Developer",
-            "technologies": [
-                "WordPress",
-                "PHP",
-                "ACF Pro",
-                "SCSS",
-                "JavaScript (ES6)",
-                "WooCommerce",
-                "Gravity Forms",
-                "Git"
+    "identity": {
+        "personal_info": {
+            "name": "Oliver Blasco Carpi",
+            "title": "Senior Full Stack Developer | WordPress & WooCommerce | N8N & AI Automation Engineer",
+            "location": "Birmingham B73 5HL, UK",
+            "email": "oliverbenzetta@gmail.com",
+            "phone": "+44 7709 542235",
+            "languages": [
+                "Spanish (Native)",
+                "Catalan (Native)",
+                "English (Professional working proficiency)"
             ],
-            "description": "Led the backend and frontend development of a bespoke, performance-oriented WordPress theme for SEIB Insurance Brokers."
+            "total_years_of_experience": 15,
+            "eligible_to_work_in_uk": true,
+            "willing_to_relocate": "Anywhere"
         },
-        {
-            "name": "REHAU Answers Website Relaunch",
-            "url": "https://www.rehauanswers.co.uk/",
-            "date": "May 2024",
-            "description": "Migrated from ASP to a user-friendly WordPress platform, including custom PHP plugin development.",
-            "key_features": [
-                "Energy Performance Calculator",
-                "PDF Generation",
-                "Custom Gutenberg blocks"
-            ]
-        },
-        {
-            "name": "Adam Rouilly Website",
-            "url": "https://www.adam-rouilly.co.uk",
-            "date": "May 2024",
-            "description": "Development of a personal website with custom WordPress theme and Gutenberg blocks.",
-            "key_features": [
-                "PHP integrations",
-                "AI keyword generation",
-                "Relevanssi integration"
-            ]
-        },
-        {
-            "name": "EBY MARKETING 2023",
-            "url": "https://www.ebydesign.co.uk/",
-            "date": "February 2023",
-            "description": "Developed custom WordPress theme with GSAP animations."
-        },
-        {
-            "name": "JESIP - Working together, Saving Lives",
-            "url": "https://www.jesip.org.uk/",
-            "date": "May 2022",
-            "description": "Developed WordPress theme and PHP functionalities from scratch with focus on accessibility."
-        },
-        {
-            "name": "GENFAB",
-            "url": "https://genfab.co.uk",
-            "date": "2021",
-            "description": "Migrated eCommerce Store from Magento 1 to WordPress-WooCommerce."
-        },
-        {
-            "name": "ASKEWS LEGAL",
-            "url": "https://askewslegal.co",
-            "date": "2021",
-            "description": "Bespoke WordPress Solution with custom theme and PHP functionalities, and SharpSpring integration."
-        },
-        {
-            "name": "WEBSITE APA SPA",
-            "url": "https://www.apaspa.com/",
-            "date": "2020",
-            "description": "E-commerce platform integrating over 10,000 products with proprietary management system using Elementor/Divi."
-        },
-        {
-            "name": "PACHA LA PINEDA",
-            "url": "http://www.pachalapineda.com/2012 (Archived)",
-            "date": "July 2012",
-            "description": "Website system based in WordPress, with system ticketing and Club control access system (QR/Barcode)."
-        },
-        {
-            "name": "DCL PROJECTS BOOKING",
-            "url": "http://www.dclprojects.com/ (Archived)",
-            "date": "January 2009",
-            "description": "Web system CMS developed from scratch with PHP for booking and management agency of electronic music international artists."
+        "about_me": "Soy Oliver Blasco, desarrollador Full-Stack y Arquitecto de IA con más de 10 años de experiencia, especializado en construir sistemas tecnológicos inteligentes, rápidos y escalables. Combino la robustez del ecosistema WordPress y el código a medida con el poder de la Inteligencia Artificial. Desde bases de conocimiento RAG y agentes autónomos hasta automatizaciones avanzadas multiplataforma, transformo la forma en que los negocios operan digitalmente. Experto en automatización avanzada con n8n, prompting de alto nivel, integración asíncrona de APIs y sistemas RAG. Especializado tanto en IA generativa Cloud como en despliegues de IA Local (Local LLMs), garantizando la privacidad absoluta y seguridad de los datos corporativos de mis clientes. Te acompaño en todo el proceso de modernización tecnológica de forma cercana y humana, convirtiéndome en tu partner técnico de confianza.",
+        "links": {
+            "linkedin": "http://linkedin.com/in/oliverblasco",
+            "github": "https://github.com/oliverbenzetta"
         }
-    ],
-    "links": {
-        "linkedin": "http://linkedin.com/in/oliverblasco"
+    },
+    "core_competencies": {
+        "ai_expertise": [
+            {
+                "category": "AI Orchestration & n8n Automation",
+                "details": "Native integration of WordPress web ecosystems via n8n using custom webhooks and async callbacks for high-performance, real-time content pipelines."
+            },
+            {
+                "category": "RAG & Knowledge Bases",
+                "details": "Automated ingestion of web data and local PDF documents into structured vector databases using AnythingLLM with custom 'FLUX CAPACITOR' chunking patterns to ensure high context retrieval."
+            },
+            {
+                "category": "Autonomous Agents & NocoDB",
+                "details": "Development of Single-Agent orchestrators that autonomously transform raw content into structured Gutenberg HTML using NocoDB data layers, Redis memory, and local LLMs."
+            },
+            {
+                "category": "Local LLM Deployment",
+                "details": "Deployment of local, privacy-first models (via LM Studio) interacting with databases, utilizing models like qwen3-coder-30b for complex logical parsing and phi-3-mini for fast structured output generation."
+            },
+            {
+                "category": "System Integration & Workflow Automation",
+                "details": "Extensive experience seamlessly integrating third-party systems such as CRMs, designing Custom APIs for proprietary data exchange, and automating intensive business pipelines using Google Cloud and Google Workspace ecosystems."
+            },
+            {
+                "category": "Multi-Modal AI & Communications",
+                "details": "Implementation of multi-modal capabilities including audio processing via Whisper (Speech-to-Text) and direct WhatsApp integration pipelines utilizing Evolution API for automated, conversational, and voice-assisted interfaces."
+            },
+            {
+                "category": "Custom AI Web Chatbots",
+                "details": "Bespoke development and seamless frontend-to-backend integration of custom, responsive AI chat interfaces directly into web ecosystems and corporate portals."
+            },
+            {
+                "category": "Agentic Automations & MCP Integration",
+                "details": "Architecting autonomous, multi-step AI agents and orchestrators. Deep expertise in utilizing the Model Context Protocol (MCP) to securely connect LLMs with external platforms, databases, and local file systems for complex reasoning and execution tasks."
+            },
+            {
+                "category": "eCommerce AI Automations",
+                "details": "Designing and deploying advanced automations specifically tailored for eCommerce platforms (like WooCommerce), optimizing inventory management, order processing, and autonomous customer support interactions."
+            }
+        ],
+        "technical_skills": {
+            "ai_and_automation": [
+                "n8n Automation",
+                "Prompt Engineering",
+                "RAG Architecture",
+                "Local LLMs (LM Studio)",
+                "NocoDB",
+                "AnythingLLM",
+                "Vector Databases",
+                "CRM Integrations",
+                "Custom API Development",
+                "Google Cloud & Workspace Automation",
+                "Evolution API (WhatsApp)",
+                "Whisper (Speech-to-Text)",
+                "Custom Web Chatbots",
+                "Agentic Automations",
+                "Model Context Protocol (MCP)",
+                "eCommerce Automations"
+            ],
+            "backend_and_architecture": [
+                "WordPress Advanced Integration",
+                "PHP",
+                "MySQL",
+                "Python",
+                "Webhooks API"
+            ],
+            "frontend_and_design": [
+                "JavaScript (ES6+)",
+                "HTML5",
+                "CSS3 / SCSS",
+                "GSAP",
+                "Three.js"
+            ]
+        }
+    },
+    "professional_history": {
+        "career_highlights": [
+            "Delivered advanced WordPress and WooCommerce solutions for clients in Spain and the UK, including multinational projects (Rehau, Dynabook).",
+            "Architected proprietary WordPress-to-n8n trigger systems featuring queue processing, execution tracking via Custom Post Types, and dynamic JSON mapping.",
+            "Built complex, autonomous automation pipelines with n8n + AI models, improving efficiency in publishing, SEO, and data enrichment.",
+            "Implemented AI-powered chatbots and RAG (Retrieval-Augmented Generation) pipelines for smarter search and contextual Q&A over structured company data.",
+            "Engineered advanced autonomous n8n Workflows: master-slave PDF summarisation pipelines, multipurpose AnythingLLM ingestion workflows, and Single-Agent orchestrators for end-to-end Gutenberg block generation.",
+            "Designed and deployed local AI workflows for privacy-sensitive projects using LM Studio and various LLM models (e.g. Qwen3-coder, Phi-3, GPT-OSS) seamlessly integrated with NocoDB data layers."
+        ],
+        "work_experience": [
+            {
+                "role": "Consultor de IA & Senior Web Developer",
+                "company": "Consultor Independiente - UK / Remoto",
+                "dates": "January 2025 to Present",
+                "description": "Diseño y desarrollo de arquitecturas avanzadas de automatización y orquestación con n8n. Despliegue de modelos de lenguaje locales (Local LLMs) para generación de contenido asíncrono, automatización de flujos de trabajo en WordPress y sistemas RAG corporativos totalmente independientes y seguros.",
+                "tags": [
+                    "AI Consulting",
+                    "n8n",
+                    "Local LLMs",
+                    "RAG"
+                ]
+            },
+            {
+                "role": "Web Developer",
+                "company": "Eby Design ltd - Tamworth",
+                "dates": "March 2021 to December 2024",
+                "description": "Advanced web design for medium and big companies in the UK. Specialized in complex PHP and custom WordPress theme development.",
+                "tags": [
+                    "Web Development",
+                    "PHP",
+                    "WordPress"
+                ]
+            },
+            {
+                "role": "Web Developer",
+                "company": "Saint Loupe ltd - Birmingham",
+                "dates": "February 2020 to March 2021"
+            },
+            {
+                "role": "Web Developer / Graphic Designer",
+                "company": "STUDIO BENZETTA - Barcelona",
+                "dates": "August 2016 to October 2019"
+            },
+            {
+                "role": "Community Manager",
+                "company": "SANT JORDI BEACH CLUB - L'Ampolla",
+                "dates": "June 2015 to August 2018"
+            },
+            {
+                "role": "Web Developer / Graphic Designer",
+                "company": "Infinitum - (Lumine Mediterranea Beach and Golf Club) - Barcelona",
+                "dates": "January 2015 to August 2016"
+            },
+            {
+                "role": "Web Developer / Graphic Designer",
+                "company": "Pacha Group - Barcelona - Salou",
+                "dates": "June 2009 to January 2015"
+            },
+            {
+                "role": "Mac OS (Apple) IT Systems Technician",
+                "company": "K-Tuin Spain - Barcelona",
+                "dates": "June 2001 to June 2003"
+            }
+        ],
+        "custom_architectures": [
+            {
+                "name": "The FLUX CAPACITOR (Chunk-Based RAG Processing Engine)",
+                "author": "Oliver Blasco",
+                "concept_definition": "Una arquitectura propietaria y altamente escalable diseñada en n8n para el procesamiento estructurado y la summarización de volúmenes masivos de texto no delimitado (ej. PDFs extremadamente largos) destinados a la ingestión RAG, sin pérdida de contexto semántico ni sobrecarga de tokens del LLM.",
+                "core_principles": [
+                    {
+                        "principle": "Strict Isolation",
+                        "description": "Cada chunk de texto es procesado y sumarizado de forma independiente por un Agente de IA, garantizando precisión local y focalizada en el contenido actual."
+                    },
+                    {
+                        "principle": "Contextual Buffers",
+                        "description": "La continuidad semántica entre chunks se preserva mediante ventanas solapadas ('Previous Chunk' y 'Next Chunk'). Estas ventanas sólo se usan para entender la continuidad y completar frases truncadas, asegurando que el LLM no contamine el resumen actual con datos pasados o futuros."
+                    },
+                    {
+                        "principle": "Progressive Accumulators",
+                        "description": "Implementación de una 'Memoria de Contexto Condensada' que se reescribe iterativamente durante el ciclo de procesamiento. Se inyecta en cada prompt como estado global (Global State) para evitar contradicciones lógicas entre iteraciones."
+                    },
+                    {
+                        "principle": "Post-Loop Synthesis",
+                        "description": "Una vez evaluados todos los chunks de manera aislada, los resúmenes acumulados se fusionan y un agente final orquesta el texto en un 'Executive Summary' altamente estructurado y preparado para búsquedas semánticas (Vector Databases)."
+                    }
+                ],
+                "technical_stack": [
+                    "n8n (SplitInBatches + StaticData state management)",
+                    "Local LLMs (LM Studio)",
+                    "Vector DBs (AnythingLLM)"
+                ],
+                "tags": [
+                    "Architecture",
+                    "n8n",
+                    "RAG",
+                    "Chunking",
+                    "LLMs",
+                    "Proprietary"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "name": "Sistema Avanzado de Triggers WP para n8n",
+                "type": "Custom Plugin / Integration",
+                "url": "https://github.com/oliverbenzetta",
+                "date": "2025",
+                "role": "Arquitecto Backend & IA",
+                "technologies": [
+                    "WordPress",
+                    "PHP",
+                    "n8n",
+                    "REST API",
+                    "Webhooks"
+                ],
+                "short_description": "Desarrollo de un plugin de WordPress complejo para conectar wp-admin directamente con n8n.",
+                "deep_dive": "Incluye sistema de colas (Queue Process), tracking de ejecuciones vía Custom Post Types, callbacks asíncronos corporativos y mapeo dinámico de respuestas JSON a meta campos y taxonomías de WordPress en tiempo real.",
+                "tags": [
+                    "WordPress",
+                    "n8n",
+                    "Automation",
+                    "PHP Plugin"
+                ]
+            },
+            {
+                "name": "Motor Autónomo de Generación de Contenido AI",
+                "type": "AI Autonomous System",
+                "url": "https://github.com/oliverbenzetta",
+                "date": "2025",
+                "role": "Orquestador de Automatización IA",
+                "technologies": [
+                    "n8n",
+                    "Local LLMs (LM Studio)",
+                    "NocoDB",
+                    "Prompt Engineering"
+                ],
+                "short_description": "Diseño y despliegue de un motor de contenido en n8n de 12 acciones asíncronas para WordPress.",
+                "deep_dive": "Capaz de generar bloques de Gutenberg, extraer FAQs, clasificar taxonomías, traducir y mejorar el SEO de forma estructuralmente autónoma mediante interacciones con NocoDB y Local LLMs (GPT-OSS y Qwen).",
+                "tags": [
+                    "AI Agents",
+                    "n8n",
+                    "Local LLMs",
+                    "Content Generation"
+                ]
+            },
+            {
+                "name": "Arquitectura Master-Slave para Resumen de PDFs (RAG)",
+                "type": "RAG Ingestion Pipeline",
+                "url": "https://github.com/oliverbenzetta",
+                "date": "2024",
+                "role": "Arquitecto IA",
+                "technologies": [
+                    "n8n",
+                    "AnythingLLM",
+                    "Local LLMs",
+                    "Vector Databases"
+                ],
+                "short_description": "Pipeline de ingestión documental masiva utilizando el patrón 'FLUX CAPACITOR'.",
+                "deep_dive": "Permite el chunking de contexto, división, vectorización y resumen de PDFs extremadamente extensos para bases de datos documentales en AnythingLLM sin pérdida de contexto.",
+                "tags": [
+                    "RAG",
+                    "n8n",
+                    "Vector DB",
+                    "PDF Processing"
+                ]
+            },
+            {
+                "name": "SEIB UK",
+                "type": "Corporate Website",
+                "url": "https://www.seib.co.uk/",
+                "date": "November 2025",
+                "role": "Senior WordPress Developer",
+                "technologies": [
+                    "WordPress",
+                    "PHP",
+                    "ACF Pro",
+                    "SCSS",
+                    "JavaScript (ES6)",
+                    "WooCommerce",
+                    "Gravity Forms",
+                    "Git"
+                ],
+                "short_description": "Bespoke, performance-oriented WordPress theme for SEIB Insurance Brokers.",
+                "deep_dive": "Led the backend and frontend development of 'SEIB 2025'. Implemented a hybrid architecture design using Underscores (_s) combined with a modern 'Block-First' approach using ~20 custom, strict-type ACF Gutenberg blocks to eliminate heavy page builders. Modular codebase decoupling functionalities into independent inc/ modules and Custom Post Types. Optimized performance via a custom SVG-to-Dashicon system. Customized WooCommerce and integrated Gravity Forms for complex lead generation workflows.",
+                "tags": [
+                    "WordPress Theme",
+                    "ACF Pro",
+                    "Gutenberg",
+                    "WooCommerce",
+                    "Performance"
+                ]
+            },
+            {
+                "name": "REHAU Answers Website Relaunch",
+                "type": "Corporate Website / App",
+                "url": "https://www.rehauanswers.co.uk/",
+                "date": "May 2024",
+                "technologies": [
+                    "WordPress",
+                    "PHP Plugin",
+                    "Gutenberg"
+                ],
+                "short_description": "Migrated from ASP to a user-friendly WordPress platform with a custom PHP plugin.",
+                "deep_dive": "Developed a custom plugin entirely in PHP to empower users with tools for calculating Energy Performance for Rehau products and automatically generating technical specification PDF reports directly from the website. Integrated seamlessly leveraging custom Gutenberg blocks.",
+                "tags": [
+                    "Migration",
+                    "Custom PHP Plugin",
+                    "PDF Generation",
+                    "Calculators"
+                ]
+            },
+            {
+                "name": "Adam Rouilly Website",
+                "type": "Personal / Corporate Website",
+                "url": "https://www.adam-rouilly.co.uk",
+                "date": "May 2024",
+                "technologies": [
+                    "HTML",
+                    "PHP",
+                    "CSS",
+                    "JavaScript",
+                    "Gutenberg",
+                    "Relevanssi"
+                ],
+                "short_description": "Personal website with a custom WordPress theme and modular Gutenberg blocks.",
+                "deep_dive": "Implemented a modular design approach based on custom Gutenberg blocks for greater flexibility. Implemented powerful search functionalities by combining Custom fields with the Relevanssi plugin. Used AI keyword generation to identify and optimize SEO.",
+                "tags": [
+                    "Custom Theme",
+                    "Gutenberg Blocks",
+                    "Advanced Search",
+                    "SEO"
+                ]
+            },
+            {
+                "name": "EBY MARKETING 2023",
+                "type": "Agency Website",
+                "url": "https://www.ebydesign.co.uk/",
+                "date": "February 2023",
+                "technologies": [
+                    "WordPress",
+                    "PHP",
+                    "HTML5",
+                    "CSS3",
+                    "JavaScript",
+                    "GSAP"
+                ],
+                "short_description": "Custom visually stunning and user-friendly agency website.",
+                "deep_dive": "Developed a custom WordPress theme from scratch utilizing GSAP (GreenSock Animation Platform) to implement interactive animations and smooth transitions that heavily enhance the user experience. Contributed to the development of the agency's best custom project to date.",
+                "tags": [
+                    "GSAP Animations",
+                    "Frontend Design",
+                    "Custom Theme"
+                ]
+            },
+            {
+                "name": "JESIP - Working together, Saving Lives",
+                "type": "Public Sector Website",
+                "url": "https://www.jesip.org.uk/",
+                "date": "May 2022",
+                "technologies": [
+                    "WordPress",
+                    "PHP"
+                ],
+                "short_description": "Accessible WordPress site built from scratch.",
+                "deep_dive": "Project based on WordPress, with a theme and PHP functionalities developed entirely from scratch. This site is an excellent example of best practices in terms of accessibility, ensuring all public safety guidelines are easily accessible to all users.",
+                "tags": [
+                    "Accessibility",
+                    "Public Sector",
+                    "Custom Theme"
+                ]
+            },
+            {
+                "name": "GENFAB",
+                "type": "eCommerce Migration",
+                "url": "https://genfab.co.uk",
+                "date": "2021",
+                "technologies": [
+                    "Magento 1",
+                    "WordPress",
+                    "WooCommerce",
+                    "PHP"
+                ],
+                "short_description": "Migration of an eCommerce Store from Magento 1 to WordPress-WooCommerce.",
+                "deep_dive": "Showcases the efficient performance of WooCommerce dealing with multiple taxonomies. The project involved custom development of the WordPress theme and specific PHP functionalities from scratch.",
+                "tags": [
+                    "Magento Migration",
+                    "WooCommerce",
+                    "eCommerce"
+                ]
+            },
+            {
+                "name": "ASKEWS LEGAL",
+                "type": "Corporate Website",
+                "url": "https://askewslegal.co",
+                "date": "2021",
+                "technologies": [
+                    "WordPress",
+                    "PHP",
+                    "SharpSpring"
+                ],
+                "short_description": "Bespoke WordPress solution for legal sector.",
+                "deep_dive": "Development of a bespoke WordPress solution involving a custom theme and functionalities built entirely from scratch. Streamlined processes via specific PHP scripting for contact forms, appointment scheduling, and document downloads. Integrated with SharpSpring for automated marketing campaigns, lead scoring, and lead capture.",
+                "tags": [
+                    "Legal Sector",
+                    "SharpSpring Integration",
+                    "Custom Workflows"
+                ]
+            },
+            {
+                "name": "WEBSITE APA SPA",
+                "type": "eCommerce & Training Portal",
+                "url": "https://www.apaspa.com/",
+                "date": "2020",
+                "technologies": [
+                    "WordPress",
+                    "Divi",
+                    "eCommerce Integration"
+                ],
+                "short_description": "Platform integrating over 10,000 products with proprietary management.",
+                "deep_dive": "Serveig as an e-commerce platform integrating a database of over 10,000 products with the company's proprietary management system using a multilingual WordPress Divi architecture. Also features a comprehensive tailored system to manage and book training courses.",
+                "tags": [
+                    "Large eCommerce",
+                    "ERP Integration",
+                    "Training System"
+                ]
+            },
+            {
+                "name": "PACHA LA PINEDA",
+                "type": "Nightlife Platform",
+                "url": "http://www.pachalapineda.com/2012 (Archived)",
+                "date": "July 2012",
+                "technologies": [
+                    "WordPress",
+                    "Custom App"
+                ],
+                "short_description": "Website system based in WordPress with ticketing.",
+                "deep_dive": "Website system based in WordPress. Integrated a custom system ticketing portal and a Club control access system integrating QR and Barcode generation.",
+                "tags": [
+                    "Ticketing",
+                    "Access Control"
+                ]
+            },
+            {
+                "name": "DCL PROJECTS BOOKING",
+                "type": "Booking CMS",
+                "url": "http://www.dclprojects.com/ (Archived)",
+                "date": "January 2009",
+                "technologies": [
+                    "Custom PHP",
+                    "CMS"
+                ],
+                "short_description": "Custom PHP CMS for electronic music international artists.",
+                "deep_dive": "Web system CMS developed from scratch with PHP for the booking and management agency of international electronic music artists. Also developed an SEO optimization system through PHP that positioned many artists in the first results of search engines.",
+                "tags": [
+                    "Custom PHP CMS",
+                    "Booking System",
+                    "Early SEO"
+                ]
+            }
+        ]
     }
 }
